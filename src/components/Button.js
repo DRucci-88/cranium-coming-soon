@@ -11,14 +11,13 @@ import { Link } from "react-router-dom"
  * @param {String} variant - Button variant: <Button variant="primary|secondary|tertiary">
  * @param {String} className - Additional classes for the button
  */
-const Button = ({ children, isCustom, type, href='/', size, variant, className, clickHandler }) => {
+const Button = ({ children, isCustom, type, href, size, variant, className, clickHandler }) => {
 
 
   // const onClickHandler = (e) => {
   //
   //   clickHandler(e.);
   // }
-
 
   const ref = useRef()
   const [height, setHeight] = useState(0)
@@ -65,24 +64,24 @@ const Button = ({ children, isCustom, type, href='/', size, variant, className, 
   // Link (href link given)
   if (href) {
     return (
-        <Link
-            ref={ref}
-            to={href}
-            className={`${btnClass} ${className ?? ''}`}>
-          {children}
-        </Link>
+      <Link
+        ref={ref}
+        to={href}
+        className={`${btnClass} ${className ?? ''}`}>
+        {children}
+      </Link>
     )
   }
   // Button (fallback option)
   else {
     return (
-        <button
-            ref={ref}
-            type={type}
-            onClick={clickHandler}
-            className={`${btnClass} ${className ?? ''}`}>
-          {children}
-        </button>
+      <button
+        ref={ref}
+        type={type}
+        onClick={clickHandler}
+        className={`${btnClass} ${className ?? ''}`}>
+        {children}
+      </button>
     )
   }
 }
