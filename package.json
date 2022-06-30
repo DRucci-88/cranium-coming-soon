@@ -1,23 +1,38 @@
 {
-  "name": "cranium-coming-soon",
+  "name": "cranium-fe-01",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@heroicons/react": "^1.0.6",
+    "@hookform/resolvers": "^2.8.8",
     "@testing-library/jest-dom": "^5.16.4",
-    "@testing-library/react": "^13.1.1",
+    "@testing-library/react": "^13.2.0",
     "@testing-library/user-event": "^13.5.0",
+    "@types/jest": "^27.5.0",
+    "@types/node": "^16.11.33",
+    "@types/react": "^18.0.8",
+    "@types/react-dom": "^18.0.3",
+    "axios": "^0.27.2",
+    "flowbite": "^1.4.7",
+    "jwt-decode": "^3.1.2",
     "react": "^18.1.0",
+    "react-back-to-top-button": "^0.0.14",
     "react-dom": "^18.1.0",
-    "react-router-dom": "^5.3.0",
+    "react-hook-form": "^7.30.0",
+    "react-icons": "^4.3.1",
+    "react-router-dom": "^6.3.0",
     "react-scripts": "5.0.1",
-    "web-vitals": "^2.1.4"
+    "react-select": "^5.3.2",
+    "typescript": "^4.6.4",
+    "web-vitals": "^2.1.4",
+    "yup": "^0.32.11"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "build-css": "npx tailwindcss -i ./src/input.css -o ./public/output.css --watch"
+    "watch": "npx tailwindcss -i ./src/index.css -o ./public/dist/output.css --watch"
   },
   "eslintConfig": {
     "extends": [
@@ -38,6 +53,8 @@
     ]
   },
   "devDependencies": {
+    "autoprefixer": "^10.4.7",
+    "postcss": "^8.4.14",
     "tailwindcss": "^3.0.24"
   }
 }

@@ -1,8 +1,8 @@
 const defaultTheme = require('tailwindcss/defaultTheme');
-const plugin = require('tailwindcss/plugin');
-// require('@tailwindcss/forms');
+
 module.exports = {
-  content: ["./src/**/*.{html,js,jsx,ts,tsx}"],
+  content: ["./src/**/*.{html,js,jsx,ts,tsx}", "./node_modules/flowbite/**/*.js"],
+  plugins: [require('flowbite/plugin')],
   theme: {
     extend: {
       fontFamily: {
@@ -36,16 +36,4 @@ module.exports = {
       },
     },
   },
-  // Apakah sidebar beneran memakai template orang lain ???
-
-  plugins: [
-    // eslint-disable-next-line global-require
-
-    // add custom variant for expanding sidebar
-    plugin(({ addVariant, e }) => {
-      addVariant('sidebar-expanded', ({ modifySelectors, separator }) => {
-        modifySelectors(({ className }) => `.sidebar-expanded .${e(`sidebar-expanded${separator}${className}`)}`);
-      });
-    }),
-  ],
-};
+}
