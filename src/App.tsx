@@ -2,9 +2,9 @@ import React from 'react';
 import {BrowserRouter, Routes, Route} from "react-router-dom";
 import 'flowbite'
 import IndexPublic from "./activity/public";
-import IndexHomeDashboard from "./activity/home-dashboard";
+// import IndexHomeDashboard from "./activity/home-dashboard";
 import AuthContextProvider from "./context/AuthContext";
-import IndexEventDashboard from './activity/event-dashboard';
+// import IndexEventDashboard from './activity/event-dashboard';
 
 function App() {
   return (

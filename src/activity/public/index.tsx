@@ -1,18 +1,18 @@
 import React from "react";
 import {Navigate, Route, Routes} from "react-router-dom";
 import LandingPage from "./LandingPage";
-import HomePage from "./HomePage";
-import PageNotFound from "./PageNotFound";
-import SignUp from "./SignUp";
+// import HomePage from "./HomePage";
+// import PageNotFound from "./PageNotFound";
+// import SignUp from "./SignUp";
 import LayoutsPublic from "./LayoutsPublic";
-import EventLandingPage2 from "./EventLandingPage_";
-import EventLandingPage from "./EventLandingPage";
-import EventPage from "./EventPage";
-import ExperienceLive from "./ExperienceLive";
-import SignIn from "./SignIn";
-import ComingSoon from "./ComingSoon";
-import Register from "./Register"
-import ThankYouPage from "./ThankYouPage"
+// import EventLandingPage2 from "./EventLandingPage_";
+// import EventLandingPage from "./EventLandingPage";
+// import EventPage from "./EventPage";
+// import ExperienceLive from "./ExperienceLive";
+// import SignIn from "./SignIn";
+// import ComingSoon from "./ComingSoon";
+// import Register from "./Register"
+// import ThankYouPage from "./ThankYouPage"
 
 const IndexPublic = () => {
   return (
