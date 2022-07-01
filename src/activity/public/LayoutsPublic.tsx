@@ -56,7 +56,7 @@ const LayoutsPublic = () => {
                   Contact Us
                 </a>
               </li>
-              {userAuth.userAuth !== null ? (
+              {/* {userAuth.userAuth !== null ? (
                 <li className="mt-2 sm:mt-0 ml-0 sm:ml-6">
                   <UserAvatar/>
                 </li>
@@ -64,7 +64,7 @@ const LayoutsPublic = () => {
                 <li className="mt-2 sm:mt-0 ml-0 sm:ml-6">
                   <Button href="/signin" type="button" variant="secondary" size="medium" isCustom={true}>Sign In</Button>
                 </li>
-              )}
+              )} */}
             </ul>
           </div>
         </div>
@@ -83,16 +83,14 @@ const LayoutsPublic = () => {
             <div className="mr-20">
               <p className="text-sm font-bold">Contacts</p>
               <div className="flex flex-col">
-                <a href="#" className="text-sm mt-4 hover:text-secondary-500">Phone Number</a>
-                <a href="#" className="text-sm mt-4 hover:text-secondary-500">Email</a>
+                <a href="https://wa.me/+628179101889" className="text-sm mt-4 hover:text-secondary-500">+628179101889</a>
+                <a href="#" className="text-sm mt-4 hover:text-secondary-500">kevin@temu.live</a>
               </div>
             </div>
             <div>
               <p className="text-sm font-bold">Company</p>
               <div className="flex flex-col">
-                <a href="#" className="text-sm mt-4 hover:text-secondary-500">Company</a>
-                <a href="#" className="text-sm mt-4 hover:text-secondary-500">Company</a>
-                <a href="#" className="text-sm mt-4 hover:text-secondary-500">Company</a>
+                <a href="#" className="text-sm mt-4 hover:text-secondary-500">Cranium.id</a>
               </div>
             </div>
           </div>
