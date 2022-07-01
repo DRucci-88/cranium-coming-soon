@@ -21,7 +21,7 @@ const LayoutsPublic = () => {
         <div
           className="max-w-screen-2xl flex items-center justify-between flex-wrap px-8 sm:px-10 py-4 mx-auto z-10 top-0">
           <Link to="/" className="text-xl sm:text-2xl font-bold text-neutral-50">
-            TEMU
+          <img src="images/jpeg/TEMU LOGO.png" alt="TEMU" className="inline-block h-8 grayscale invert"/>
           </Link>
 
           <div className="block sm:hidden">
@@ -83,14 +83,14 @@ const LayoutsPublic = () => {
             <div className="mr-20">
               <p className="text-sm font-bold">Contacts</p>
               <div className="flex flex-col">
-                <a href="https://wa.me/+628179101889" className="text-sm mt-4 hover:text-secondary-500">+628179101889</a>
-                <a href="#" className="text-sm mt-4 hover:text-secondary-500">kevin@temu.live</a>
+                <a href="https://wa.me/+628179101889" target="_blank" rel="noreferrer" className="text-sm mt-4 hover:text-secondary-500">+628179101889</a>
+                <a href="mailto:kevin@temu.live" className="text-sm mt-4 hover:text-secondary-500">kevin@temu.live</a>
               </div>
             </div>
             <div>
               <p className="text-sm font-bold">Company</p>
               <div className="flex flex-col">
-                <a href="#" className="text-sm mt-4 hover:text-secondary-500">Cranium.id</a>
+                <a href="https://cranium.id/" target="_blank" rel="noreferrer" className="text-sm mt-4 hover:text-secondary-500">Cranium.id</a>
               </div>
             </div>
           </div>

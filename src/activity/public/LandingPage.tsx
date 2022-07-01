@@ -17,7 +17,7 @@ const LandingPage = () => {
             All-in-one Event Management Services
           </h1>
           <p className="text-xs sm:text-base lg:text-lg text-neutral-400 max-w-[90%] sm:max-w-[80%] lg:max-w-screen-[70%] text-center">
-            [Temu - in logo] membantu mengelola seluruh kebutuhan event online
+            <img src="images/jpeg/TEMU LOGO.png" alt="TEMU" className="inline-block h-8 grayscale invert"/> membantu mengelola seluruh kebutuhan event online
             maupun offline dalam satu pintu dengan mengedepankan teknologi{" "}
             <i>virtual reality</i>
           </p>
@@ -42,7 +42,7 @@ const LandingPage = () => {
                 />
               </div>
               <h6 className="text-md font-bold mb-2">Platform Development</h6>
-              <p className="text-xs text-neutral-400">
+              <p className="text-xs sm:text-sm lg:text-base text-neutral-400">
                 Membangun virtual space berbasis web sebagai wadah semua
                 aktivitas digital Anda, seperti: webinar, hybrid event, pameran,
                 conference, corporate event, workshops, entertainment dan acara
@@ -54,7 +54,7 @@ const LandingPage = () => {
                 <img src="images/vector/organize.svg" alt="Event Organizer" />
               </div>
               <h6 className="text-md font-bold mb-2">Event Organizer</h6>
-              <p className="text-xs text-neutral-400">
+              <p className="text-xs sm:text-sm lg:text-base text-neutral-400">
                 Menciptakan pengalaman acara online dan offline yang
                 terintegrasi dengan mengelola hybrid event Anda mulai dari
                 pembuatan konsep, perencanaan, produksi, talent management,
@@ -162,6 +162,7 @@ const LandingPage = () => {
             size="large"
             isCustom={true}
             href="https://wa.me/+628179101889"
+            newTab
             className="mt-8"
             type={"button"}
           >

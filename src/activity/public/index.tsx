@@ -8,7 +8,7 @@ import LayoutsPublic from "./LayoutsPublic";
 // import EventLandingPage2 from "./EventLandingPage_";
 // import EventLandingPage from "./EventLandingPage";
 // import EventPage from "./EventPage";
-// import ExperienceLive from "./ExperienceLive";
+import ExperienceLive from "./ExperienceLive";
 // import SignIn from "./SignIn";
 // import ComingSoon from "./ComingSoon";
 // import Register from "./Register"
@@ -26,11 +26,11 @@ const IndexPublic = () => {
 
         <Route path={'/'} element={<LayoutsPublic/>}>
           <Route index element={<LandingPage/>}/>
+          <Route path={'experience-live'} element={<ExperienceLive/>}/>
           {/* <Route path={'home-page'} element={<HomePage/>}/>
           <Route path={'event-page'} element={<EventPage/>}/>
           <Route path={'event-landing-page_'} element={<EventLandingPage2/>}/>
           <Route path={'event-landing-page'} element={<EventLandingPage/>}/>
-          <Route path={'experience-live'} element={<ExperienceLive/>}/>
           <Route path={'Event-landing-page'} element={<EventPage/>}/> */}
         </Route>
 
