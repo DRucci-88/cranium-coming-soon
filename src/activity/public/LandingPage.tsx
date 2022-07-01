@@ -4,7 +4,7 @@ import CompanyLogo from "../../components/CompanyLogo";
 import ScrollToTop from "../../components/ScrollToTop";
 
 const LandingPage = () => {
-  console.log("Landing Page");
+  // console.log("Landing Page");
   return (
     <>
       {/* Hero */}
@@ -151,7 +151,7 @@ const LandingPage = () => {
           </div>
         </div>
       </section>
-      
+
       {/* Contact Us */}
       <section id="contact" className="bg-primary-700">
         <div className="flex flex-col justify-center items-center py-16 mx-auto">
@@ -169,7 +169,7 @@ const LandingPage = () => {
           </Button>
         </div>
       </section>
-      
+
       {/* ScrollToTop */}
       <ScrollToTop />
     </>
