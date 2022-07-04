@@ -75,7 +75,9 @@ const LayoutsPublic = () => {
       <div className="bg-primary-900">
         <div className="max-w-screen-2xl flex flex-col md:flex-row justify-between p-16 sm:p-24 md:p-32 mx-auto">
           <div>
-            <h2 className="font-sans font-bold text-2xl">TEMU</h2>
+          <Link to="/" className="text-xl sm:text-2xl font-bold text-neutral-50">
+          <img src="images/jpeg/TEMU LOGO.png" alt="TEMU" className="inline-block h-8 grayscale invert"/>
+          </Link>
             <p className="text-sm mt-4">© 2022. ALL RIGHTS RESERVED</p>
             <a href="#" className="inline-block text-sm mt-4 hover:text-secondary-500">Privacy — Terms</a>
           </div>
@@ -85,12 +87,6 @@ const LayoutsPublic = () => {
               <div className="flex flex-col">
                 <a href="https://wa.me/+628179101889" target="_blank" rel="noreferrer" className="text-sm mt-4 hover:text-secondary-500">+628179101889</a>
                 <a href="mailto:kevin@temu.live" className="text-sm mt-4 hover:text-secondary-500">kevin@temu.live</a>
-              </div>
-            </div>
-            <div>
-              <p className="text-sm font-bold">Company</p>
-              <div className="flex flex-col">
-                <a href="https://cranium.id/" target="_blank" rel="noreferrer" className="text-sm mt-4 hover:text-secondary-500">Cranium.id</a>
               </div>
             </div>
           </div>
