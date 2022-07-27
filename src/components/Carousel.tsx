@@ -41,7 +41,7 @@ const Carousel = ({className}: CarouselClass) => {
           <img
             src={images[i].image}
             alt={images[i].title}
-            className="block absolute w-full bg-neutral-200 object-cover object-center top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"
+            className="block absolute w-full h-full bg-neutral-200 object-cover object-center top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"
           />
           <div
             className="absolute w-full h-full flex flex-col justify-center items-center bg-black/75 opacity-0 hover:opacity-100 hover:cursor-pointer duration-300 transition-opacity"
